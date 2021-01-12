@@ -16,7 +16,7 @@ When the entity is updated or delete
 
 You may have a static class to provide static login user id value.
 
-You may persisted holiday data manually into your DB.
+You may persist holiday data manually into your DB.
 
 This module must be independently runnable module without Billing Module
 ## Billing Module
