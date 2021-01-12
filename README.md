@@ -15,6 +15,9 @@ When the entity is updated or delete
 * If data is modified during the holiday, holiday exception must be thrown back to caller. 
 
 You may have a static class to provide static login user id value.
+
+You may persisted holiday data manually into your DB.
+
 This module must be independently runnable module without Billing Module
 ## Billing Module
 After a visit entity is created, a billing entity related to that visit shall be created only if billing module is part of the deployment. Which mean, some clients may not want billing module as a part of the whole application.
